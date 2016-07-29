@@ -40,7 +40,7 @@ namespace HolyInnocents
             bool enableSSL = true;
 
             string emailFrom = "holyinnocentschicago@gmail.com";
-            string password = "HiChurch743";
+            string password = "******";
             string emailTo = "holyinnocentschicago@gmail.com";
             string subject = txtSubject.Text;
             string body = "You have received a contact request from " + txtName.Text + ". \n\n Message:\n\n" + txtMessage.Text + "\n\n Return Email: " + txtEmail.Text;
