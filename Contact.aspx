@@ -1,13 +1,21 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="HolyInnocents.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    
+    <div class="page-heading text-center" style="padding-bottom: 5px;">
+
+        <div class="container zoomIn animated">
+
+            <h1 class="page-title">Contact Us<span class="title-under"></span></h1>
+
+        </div>
+
+    </div>
 	  
 	
      
 
         <!--==========================================CONTACT FORM SECTION========================================-->
-
+    <br />
           <section class="upcoming-event blog-page single-blog" style="padding-left: 20px;">
              <%-- <a href="Contact.aspx.cs">Contact.aspx.cs</a>--%>
       		<div class="container clearfix">
@@ -16,7 +24,7 @@
                     <form id="form1" runat="server">
                         <table id="table" style="padding-left:25px; width:90%;">
                              <tr>
-                                <td style="width:25%; padding-left: 25px;"><asp:Label ID="NameLabel" runat="server" Text="Name*: "></asp:Label></td>
+                                <td style="width:25%; padding-left: 25px; margin-top: 5px;"><asp:Label ID="NameLabel" runat="server" Text="Name*: "></asp:Label></td>
                                 <td style="width:75%; padding-left: 25px;"><asp:TextBox ID="txtName" runat="server" Width="235px"></asp:TextBox></td>
                             </tr>
                             <tr>
@@ -39,7 +47,7 @@
 
                             </tr>
                         </table>
-                    </form>
+                    </form><br />
                     You may email us anytime at holyinnocentschicago@gmail.com.
                 </div>
                        	

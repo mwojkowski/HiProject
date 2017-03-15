@@ -65,11 +65,15 @@ namespace HolyInnocents
 
             for (int q = 0; q < communities.Count; q++)
             {
+                Club temp = communities[q];
+
                 Clubs.Text = Clubs.Text +
-                    "<div class=\"blog-post\" id=\"PostOne\">" +
-                    "<h2 id=\"Title\">" + communities[q].name + "</h2>" +
-                    "<p id=\"Text\">" + communities[q].description + "</p>" +
-                    "</div>";
+                    "<div class=\"post\">" +
+                    "<h2 class=\"title-style-2\">" + temp.name + "<span class=\"title-under\"></span></h2>" +
+                    "<p>" +
+                         temp.description +
+                    "</p>" +
+                "</div>";
 
             }//clcose for loop
 

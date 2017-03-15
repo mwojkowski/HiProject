@@ -11,14 +11,30 @@
 			        <header><h3>Manage Article</h3></header>
                         
 				        <div class="module_content">
-						        <fieldset>
-							        <label>Post Title</label>
-							        <asp:TextBox ID="txtPostTitle" runat="server"></asp:TextBox>
-						        </fieldset>
-						        <fieldset>
-							        <label>Content</label>
-							        <asp:TextBox ID="txtArticleBody" TextMode="MultiLine" Rows="15" runat="server"></asp:TextBox>
-						        </fieldset>
+						    <fieldset>
+							    <label>Post Title(English)</label>
+							    <asp:TextBox ID="txtEnglishTitle" runat="server"></asp:TextBox>
+						    </fieldset>    
+                            <fieldset>
+							    <label>Post Title(Spanish)</label>
+							    <asp:TextBox ID="txtSpanishTitle" runat="server"></asp:TextBox>
+						    </fieldset>
+                            <fieldset>
+							    <label>Post Title(Polish)</label>
+							    <asp:TextBox ID="txtPolishTitle" runat="server"></asp:TextBox>
+						    </fieldset>
+						    <fieldset>
+							    <label>Content(English)</label>
+							    <asp:TextBox ID="txtEnglishBody" TextMode="MultiLine" Rows="15" runat="server"></asp:TextBox>
+						    </fieldset>
+                            <fieldset>
+							    <label>Content(Spanish)</label>
+							    <asp:TextBox ID="txtSpanishBody" TextMode="MultiLine" Rows="15" runat="server"></asp:TextBox>
+						    </fieldset>
+                            <fieldset>
+							    <label>Content(Polish)</label>
+							    <asp:TextBox ID="txtPolishBody" TextMode="MultiLine" Rows="15" runat="server"></asp:TextBox>
+						    </fieldset>
 				        </div>
 			        <footer>
                         

@@ -20,7 +20,7 @@
             	<div class="blog-post" style="padding-left:20px;">
                 	<b>Holy Innocents Parish Diamond Jubilee Commemoration Book (1980)</b><br><br>
 
-<p>From Humble Beginnings</p>
+<p><b>From Humble Beginnings</b></p>
 
 <p>Greeting the visitor, the traveler, and the immigrant on the Statue of Liberty is the message: "Give me your tired, your poor, your huddled masses yearning to breathe free,” proclaiming that America has opened its shores to the people of the world with the promise of a better life. </p>
 

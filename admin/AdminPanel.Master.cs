@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+using HolyInnocents.App_Code;
+
 namespace HolyInnocents.admin
 {
     public partial class AdminPanel : System.Web.UI.MasterPage

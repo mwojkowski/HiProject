@@ -3,52 +3,75 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <form id="form1" runat="server">
     <!--==========================================GROUPS SECTION========================================-->
+        <div class="page-heading text-center">
 
-          <section class="upcoming-event blog-page single-blog" style="padding-left: 20px;">
-      		<div class="container clearfix">
-            	<div class="span8 pull-left" id="posts" runat="server">
-                    <asp:Literal ID="Clubs" runat="server"></asp:Literal>
+    <div class="container zoomIn animated">
 
-                </div>
-                       	
-                <div class="span4 sidebar pull-right">
-                    <div class="tweets">
-                    	<h4>Our Staff</h4>
-                    	<div class="tweet">
-                                
-                            <h5><i class="fa fa-twitter"></i>Rev. Joseph Tito</h5>
-                            <p>jtito@archchicago.org</p>
-                    	</div>
-                        <div class="tweet">
-                            <h5><i class="fa fa-twitter"></i>Mrs. Lina Ruiz</h5>
-                            <p>Relgious Education Coordinator</p>
-                            <p>Parish Secretary</p>
-                            <p>catequistalina@aol.com</p>
-                    	</div>
-                        <div class="tweet">
-                            <h5><i class="fa fa-twitter"></i>Wojciech Budzyn</h5>
-                            <p>Maintenance</p>
-                            <p>Polish Liaison</p>
-                    	</div>
-                        <div class="tweet">
-                            <h5><i class="fa fa-twitter"></i>Mr. Michael Seiberlich</h5>
-                            <p>Music Director</p>
-                    	</div>
-                        <div class="tweet">
-                            <h5><i class="fa fa-twitter"></i>Mr. Jose Guadalupe Rios</h5>
-                            <p>Music Minister</p>
-                    	</div>
-                        <div class="tweet">
-                            <h5><i class="fa fa-twitter"></i>Mrs. Ana Danowska</h5>
-                            <p>Music Minister</p>
-                    	</div>
-                        
-                    </div>
-                </div>
-            
+        <h1 class="page-title">Our Communities<span class="title-under"></span></h1>
+
+
+    </div>
+
+</div>
+
+
+<div class="section-home about-us fadeIn animated">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-7 col-sm-12 col-form">
+                <asp:Literal ID="Clubs" runat="server"></asp:Literal>
+                
+
+
             </div>
-      
-      </section>
+            <div class="col-md-4 col-md-offset-1 col-contact">
+
+                <h2 class="title-style-2">Our Staff<span class="title-under"></span></h2>
+
+                <div>
+                    <h5><b>Juan Carlos Arrieta Correa</b></h5>
+                    <p style="padding-left:10px">Pastor</p>
+                </div>
+                <hr />
+                <div class="tweet">
+                    <h5><b>Mrs. Lina Ruiz</b></h5>
+                    <p style="padding-left:10px">Religious Education Coordinator</p>
+                    <p style="padding-left:10px">catequistalina@aol.com</p>
+                </div>
+                <hr />
+                <div>
+                    <h5><b>Wojciech Budzyn</b></h5>
+                    <p style="padding-left:10px">Maintenance</p>
+                    <p style="padding-left:10px">Polish Liaison</p>
+                </div>
+                <hr />
+                <div>
+                    <h5><b>Mr. Michael Seiberlich</b></h5>
+                    <p style="padding-left:10px">Music Director</p>
+                </div>
+                <hr />
+                <div>
+                    <h5><b>Mr. Jose Guadalupe Rios</b></h5>
+                    <p style="padding-left:10px">Music Minister</p>
+                </div>
+                <hr />
+                <div>
+                    <h5><b>Mrs. Ana Danowska</b></h5>
+                    <p style="padding-left:10px">Music Minister</p>
+                </div>
+                <hr />
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div> <!-- /.about-us -->
 
 
         

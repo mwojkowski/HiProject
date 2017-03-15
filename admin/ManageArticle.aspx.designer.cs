@@ -31,22 +31,58 @@ namespace HolyInnocents.admin {
         protected global::System.Web.UI.WebControls.Literal messageLiteral;
         
         /// <summary>
-        /// txtPostTitle control.
+        /// txtEnglishTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPostTitle;
+        protected global::System.Web.UI.WebControls.TextBox txtEnglishTitle;
         
         /// <summary>
-        /// txtArticleBody control.
+        /// txtSpanishTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtArticleBody;
+        protected global::System.Web.UI.WebControls.TextBox txtSpanishTitle;
+        
+        /// <summary>
+        /// txtPolishTitle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtPolishTitle;
+        
+        /// <summary>
+        /// txtEnglishBody control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtEnglishBody;
+        
+        /// <summary>
+        /// txtSpanishBody control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtSpanishBody;
+        
+        /// <summary>
+        /// txtPolishBody control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtPolishBody;
         
         /// <summary>
         /// Submit control.

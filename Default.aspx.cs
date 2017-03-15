@@ -8,6 +8,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using HolyInnocents.App_Code;
+
 
 
 namespace HolyInnocents
@@ -17,8 +19,13 @@ namespace HolyInnocents
 
         private string connectionString = ConfigurationManager.ConnectionStrings["AzureConnString"].ConnectionString;
                                                                                  //hi_siteConnectionString
+        //clsSession guestSession = new clsSession();
+         
+
         protected void Page_Load(object sender, EventArgs e)
         {
+
+
             populatePosts();
 
 
@@ -64,7 +71,7 @@ namespace HolyInnocents
                 }//close if statement
             }//close finally statement
             string fileLink = "";
-            for (int q = 0; q < x.Rows.Count; q++)
+            /*for (int q = 0; q < x.Rows.Count; q++)
             {
 
                 fileLink = "/Downloads/" + x.Rows[q]["FileName"];
@@ -74,7 +81,7 @@ namespace HolyInnocents
                     "<div class=\"tweet\">" +
                     "<h5><img src=\"../images/PDF.jpg\" /><a href=\"" + fileLink + "\t\">" + bulletindate.ToString("MM/dd/yyyy") + "</a></h5><br/>" +
                     "</div>";
-            }//close for loop
+            }//close for loop*/
 
 
 
@@ -102,7 +109,7 @@ namespace HolyInnocents
             try
             {
                 cmd = c.CreateCommand();
-                cmd.CommandText = "SELECT TOP 4 (ID), Title, Date, body from Posts order by ID DESC";
+                cmd.CommandText = "SELECT TOP 4 (ID), EnglishTitle, Date, EnglishBody from News order by ID DESC";
                     //"SELECT * FROM Posts ORDER BY id DESC LIMIT 2";
                 SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                 adapter.Fill(Posts);
@@ -125,7 +132,7 @@ namespace HolyInnocents
             Article[] activePosts = new Article[4];
             for (int x = 0; x < Posts.Rows.Count; x++)
             {
-                activePosts[x] = new Article(Posts.Rows[x]["Title"].ToString(), "", Convert.ToDateTime(Posts.Rows[x]["Date"]), Posts.Rows[x]["body"].ToString());
+                activePosts[x] = new Article(Posts.Rows[x]["EnglishTitle"].ToString(), "", Convert.ToDateTime(Posts.Rows[x]["Date"]), Posts.Rows[x]["EnglishBody"].ToString());
             }//close for loop
 
             for (int q = 0; q < 4; q++)
@@ -133,12 +140,17 @@ namespace HolyInnocents
                 Article article = new Article();
                 
                 article = activePosts[q];
-                BlogPosts.Text = BlogPosts.Text +
-                    "<div class=\"blog-post\" id=\"PostOne\">" +
-                    "<h2 id=\"Title\">" + activePosts[q].title + "</h2>" +
-                    "<span class=\"post-date\" id=\"Date1\"><i class=\"fa fa-calendar\"></i>" + activePosts[q].date.ToString("MM/dd/yyyy") + "</span>" +
-                    "<p id=\"Text\">" + activePosts[q].text.Replace(System.Environment.NewLine, "<br />") + "</p>" +
-                    "</div>";
+
+                NewsPosts.Text = NewsPosts.Text +
+                    "<div class=\"post\">" +
+                        "<h2 class=\"title-style-2\">" + article.title + "<span class=\"\"></span></h2>" +
+                        "<p>" + article.date.ToString("MM/dd/yyyy") + "</p>" +
+
+                        "<p>" +
+                            article.text.Replace(System.Environment.NewLine, "<br />") +
+                        "</p>" +
+
+                    "</div><hr><br />";
                 
             }//clcose for loop
 

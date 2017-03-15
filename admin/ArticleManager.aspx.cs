@@ -38,7 +38,7 @@ namespace HolyInnocents.admin
 
 
 
-                cmd.CommandText = "SELECT id, Title, Date from Posts ORDER BY Date DESC";
+                cmd.CommandText = "SELECT ID, EnglishTitle, Date from News ORDER BY Date DESC";
 
                 SqlDataAdapter a = new SqlDataAdapter(cmd);
 
@@ -63,10 +63,10 @@ namespace HolyInnocents.admin
             {
 
                 //fileLink = "/Downloads/" + x.Rows[q]["FileName"];
-                articleLink = "ManageArticle.aspx?id=" + x.Rows[q]["id"];
+                articleLink = "ManageArticle.aspx?id=" + x.Rows[q]["ID"];
 
                 newsArticles.Text = newsArticles.Text +
-                    "<td>" + x.Rows[q]["Title"] + "</td>" +
+                    "<td>" + x.Rows[q]["EnglishTitle"] + "</td>" +
                     "<td>" + x.Rows[q]["Date"] + "</td>" +
                     "<td>" + "<a href=\"" + articleLink + "\"><img src=\"images/icn_edit.png\"</a>" + "</td>" +
                     "<tr>";

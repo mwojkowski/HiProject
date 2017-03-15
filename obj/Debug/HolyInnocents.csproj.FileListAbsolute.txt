@@ -1,25 +1,3 @@
-D:\visual studio 2013\Projects\HolyInnocents\HolyInnocents\bin\HolyInnocents.dll.config
-D:\visual studio 2013\Projects\HolyInnocents\HolyInnocents\bin\HolyInnocents.dll
-D:\visual studio 2013\Projects\HolyInnocents\HolyInnocents\bin\HolyInnocents.pdb
-D:\visual studio 2013\Projects\HolyInnocents\HolyInnocents\obj\Debug\HolyInnocents.dll
-D:\visual studio 2013\Projects\HolyInnocents\HolyInnocents\obj\Debug\HolyInnocents.pdb
-D:\visual studio 2013\Projects\HolyInnocents\HolyInnocents\obj\Debug\HolyInnocents.csprojResolveAssemblyReference.cache
-E:\HolyInnocents\HolyInnocents\bin\HolyInnocents.dll
-E:\HolyInnocents\HolyInnocents\bin\HolyInnocents.pdb
-E:\HolyInnocents\HolyInnocents\obj\Debug\HolyInnocents.dll
-E:\HolyInnocents\HolyInnocents\obj\Debug\HolyInnocents.pdb
-E:\HolyInnocents\HolyInnocents\obj\Debug\HolyInnocents.csprojResolveAssemblyReference.cache
-F:\HolyInnocents\HolyInnocents\obj\Debug\HolyInnocents.csprojResolveAssemblyReference.cache
-F:\HolyInnocents\HolyInnocents\obj\Debug\HolyInnocents.dll
-F:\HolyInnocents\HolyInnocents\bin\HolyInnocents.dll.config
-F:\HolyInnocents\HolyInnocents\bin\HolyInnocents.dll
-F:\HolyInnocents\HolyInnocents\bin\HolyInnocents.pdb
-F:\HolyInnocents\HolyInnocents\obj\Debug\HolyInnocents.pdb
-E:\HolyInnocents\HolyInnocents\bin\HolyInnocents.dll.config
-E:\HolyInnocents\HolyInnocents\bin\MySql.Data.Entity.EF6.dll
-E:\HolyInnocents\HolyInnocents\bin\MySql.Fabric.Plugin.dll
-F:\HolyInnocents\HolyInnocents\bin\MySql.Data.Entity.EF6.dll
-F:\HolyInnocents\HolyInnocents\bin\MySql.Fabric.Plugin.dll
 C:\Users\Matthew\Documents\Visual Studio 2013\Projects\HolyInnocents\HolyInnocents\bin\HolyInnocents.dll.config
 C:\Users\Matthew\Documents\Visual Studio 2013\Projects\HolyInnocents\HolyInnocents\bin\HolyInnocents.dll
 C:\Users\Matthew\Documents\Visual Studio 2013\Projects\HolyInnocents\HolyInnocents\bin\HolyInnocents.pdb
@@ -27,3 +5,25 @@ C:\Users\Matthew\Documents\Visual Studio 2013\Projects\HolyInnocents\HolyInnocen
 C:\Users\Matthew\Documents\Visual Studio 2013\Projects\HolyInnocents\HolyInnocents\obj\Debug\HolyInnocents.dll
 C:\Users\Matthew\Documents\Visual Studio 2013\Projects\HolyInnocents\HolyInnocents\obj\Debug\HolyInnocents.pdb
 C:\Users\Matthew\Documents\Visual Studio 2013\Projects\HolyInnocents\HolyInnocents\obj\Debug\HolyInnocents.csprojResolveAssemblyReference.cache
+E:\HolyInnocents\HolyInnocents\bin\HolyInnocents.dll.config
+E:\HolyInnocents\HolyInnocents\bin\HolyInnocents.dll
+E:\HolyInnocents\HolyInnocents\bin\HolyInnocents.pdb
+E:\HolyInnocents\HolyInnocents\bin\MySql.Data.dll
+E:\HolyInnocents\HolyInnocents\bin\MySql.Web.v20.dll
+E:\HolyInnocents\HolyInnocents\obj\Debug\HolyInnocents.csprojResolveAssemblyReference.cache
+E:\HolyInnocents\HolyInnocents\obj\Debug\HolyInnocents.dll
+E:\HolyInnocents\HolyInnocents\obj\Debug\HolyInnocents.pdb
+C:\Users\Matthew\Desktop\HolyInnocents\HolyInnocents\bin\HolyInnocents.dll.config
+C:\Users\Matthew\Desktop\HolyInnocents\HolyInnocents\bin\HolyInnocents.dll
+C:\Users\Matthew\Desktop\HolyInnocents\HolyInnocents\bin\HolyInnocents.pdb
+C:\Users\Matthew\Desktop\HolyInnocents\HolyInnocents\bin\MySql.Data.dll
+C:\Users\Matthew\Desktop\HolyInnocents\HolyInnocents\obj\Debug\HolyInnocents.csprojResolveAssemblyReference.cache
+C:\Users\Matthew\Desktop\HolyInnocents\HolyInnocents\obj\Debug\HolyInnocents.dll
+C:\Users\Matthew\Desktop\HolyInnocents\HolyInnocents\obj\Debug\HolyInnocents.pdb
+D:\HolyInnocents\HolyInnocents\bin\HolyInnocents.dll.config
+D:\HolyInnocents\HolyInnocents\bin\HolyInnocents.dll
+D:\HolyInnocents\HolyInnocents\bin\HolyInnocents.pdb
+D:\HolyInnocents\HolyInnocents\bin\MySql.Data.dll
+D:\HolyInnocents\HolyInnocents\obj\Debug\HolyInnocents.csprojResolveAssemblyReference.cache
+D:\HolyInnocents\HolyInnocents\obj\Debug\HolyInnocents.dll
+D:\HolyInnocents\HolyInnocents\obj\Debug\HolyInnocents.pdb

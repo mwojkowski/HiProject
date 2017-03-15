@@ -13,8 +13,8 @@ using System.Text;
 using System.Data.SqlClient;
 
 
-//namespace HolyInnocents.admin
-//{
+namespace HolyInnocents.App_Code
+{
     public class clsLogin
     {
         public string username { get; set; }
@@ -46,7 +46,7 @@ using System.Data.SqlClient;
         {
             try
             {
-                string key = "###";
+                string key = "Np2ZY36ahh";
                 TripleDESCryptoServiceProvider objDESCrypto =
                     new TripleDESCryptoServiceProvider();
                 MD5CryptoServiceProvider objHashMD5 = new MD5CryptoServiceProvider();
@@ -128,4 +128,4 @@ using System.Data.SqlClient;
 
 
     }//close class
-//}//close namespace
+}//close namespace

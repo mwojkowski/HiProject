@@ -75,6 +75,15 @@ namespace HolyInnocents
         {
             Context.GetOwinContext().Authentication.SignOut();
         }
-    }
 
-}
+
+        protected void AddEmail(object sender, EventArgs e){
+            //string name = txtName.Text;
+            //string email = txtEmail.Text;
+
+
+        }//close AddEmail
+
+    }//close class
+
+}//close namespace

@@ -218,6 +218,117 @@
     <Content Include="admin\ArticleManager.aspx" />
     <Content Include="admin\AccountManager.aspx" />
     <Content Include="admin\Logout.aspx" />
+    <Content Include="assets\css\bootstrap.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\font-awesome.min.css" />
+    <Content Include="assets\css\owl.carousel.css" />
+    <Content Include="assets\css\prettyPhoto.css" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\images\about-us-image.jpg" />
+    <Content Include="assets\images\about-us.jpg" />
+    <Content Include="assets\images\causes\cause-culture.jpg" />
+    <Content Include="assets\images\causes\cause-education.jpg" />
+    <Content Include="assets\images\causes\cause-hunger.jpg" />
+    <Content Include="assets\images\causes\cause-rights.jpg" />
+    <Content Include="assets\images\causes\slider\cause-slider-1.jpg" />
+    <Content Include="assets\images\causes\slider\cause-slider-2.jpg" />
+    <Content Include="assets\images\gallery\7610291856_931fb9f461_k.jpg" />
+    <Content Include="assets\images\gallery\afghani-60798_1280.jpg" />
+    <Content Include="assets\images\gallery\africa-education.jpg" />
+    <Content Include="assets\images\gallery\boy-60729_1280.jpg" />
+    <Content Include="assets\images\gallery\child-207573_1280.jpg" />
+    <Content Include="assets\images\gallery\children-60654_1280.jpg" />
+    <Content Include="assets\images\gallery\children-82272_1280.jpg" />
+    <Content Include="assets\images\gallery\doll-87407_1280.jpg" />
+    <Content Include="assets\images\gallery\gallery-item-1.jpg" />
+    <Content Include="assets\images\gallery\girl-62328_1280.jpg" />
+    <Content Include="assets\images\gallery\human-rights.jpg" />
+    <Content Include="assets\images\gallery\hunger-682834_1280.jpg" />
+    <Content Include="assets\images\gallery\old-books-436498_1280.jpg" />
+    <Content Include="assets\images\gallery\thumb\7610291856_931fb9f461_k.jpg" />
+    <Content Include="assets\images\gallery\thumb\afghani-60798_1280.jpg" />
+    <Content Include="assets\images\gallery\thumb\africa-education.jpg" />
+    <Content Include="assets\images\gallery\thumb\boy-60729_1280.jpg" />
+    <Content Include="assets\images\gallery\thumb\child-207573_1280.jpg" />
+    <Content Include="assets\images\gallery\thumb\children-60654_1280.jpg" />
+    <Content Include="assets\images\gallery\thumb\children-82272_1280.jpg" />
+    <Content Include="assets\images\gallery\thumb\doll-87407_1280.jpg" />
+    <Content Include="assets\images\gallery\thumb\girl-62328_1280.jpg" />
+    <Content Include="assets\images\gallery\thumb\human-rights.jpg" />
+    <Content Include="assets\images\gallery\thumb\hunger-682834_1280.jpg" />
+    <Content Include="assets\images\gallery\thumb\old-books-436498_1280.jpg" />
+    <Content Include="assets\images\heading-bg.jpg" />
+    <Content Include="assets\images\icons\help-icon.png" />
+    <Content Include="assets\images\icons\make-donation-icon.png" />
+    <Content Include="assets\images\icons\our-mission-icon.png" />
+    <Content Include="assets\images\icons\programs-icon.png" />
+    <Content Include="assets\images\icons\zoom-icon.png" />
+    <Content Include="assets\images\prettyPhoto\dark_rounded\btnNext.png" />
+    <Content Include="assets\images\prettyPhoto\dark_rounded\btnPrevious.png" />
+    <Content Include="assets\images\prettyPhoto\dark_rounded\contentPattern.png" />
+    <Content Include="assets\images\prettyPhoto\dark_rounded\default_thumbnail.gif" />
+    <Content Include="assets\images\prettyPhoto\dark_rounded\loader.gif" />
+    <Content Include="assets\images\prettyPhoto\dark_rounded\sprite.png" />
+    <Content Include="assets\images\prettyPhoto\dark_square\btnNext.png" />
+    <Content Include="assets\images\prettyPhoto\dark_square\btnPrevious.png" />
+    <Content Include="assets\images\prettyPhoto\dark_square\contentPattern.png" />
+    <Content Include="assets\images\prettyPhoto\dark_square\default_thumbnail.gif" />
+    <Content Include="assets\images\prettyPhoto\dark_square\loader.gif" />
+    <Content Include="assets\images\prettyPhoto\dark_square\sprite.png" />
+    <Content Include="assets\images\prettyPhoto\default\default_thumb.png" />
+    <Content Include="assets\images\prettyPhoto\default\loader.gif" />
+    <Content Include="assets\images\prettyPhoto\default\sprite.png" />
+    <Content Include="assets\images\prettyPhoto\default\sprite_next.png" />
+    <Content Include="assets\images\prettyPhoto\default\sprite_prev.png" />
+    <Content Include="assets\images\prettyPhoto\default\sprite_x.png" />
+    <Content Include="assets\images\prettyPhoto\default\sprite_y.png" />
+    <Content Include="assets\images\prettyPhoto\facebook\btnNext.png" />
+    <Content Include="assets\images\prettyPhoto\facebook\btnPrevious.png" />
+    <Content Include="assets\images\prettyPhoto\facebook\contentPatternBottom.png" />
+    <Content Include="assets\images\prettyPhoto\facebook\contentPatternLeft.png" />
+    <Content Include="assets\images\prettyPhoto\facebook\contentPatternRight.png" />
+    <Content Include="assets\images\prettyPhoto\facebook\contentPatternTop.png" />
+    <Content Include="assets\images\prettyPhoto\facebook\default_thumbnail.gif" />
+    <Content Include="assets\images\prettyPhoto\facebook\loader.gif" />
+    <Content Include="assets\images\prettyPhoto\facebook\sprite.png" />
+    <Content Include="assets\images\prettyPhoto\light_rounded\btnNext.png" />
+    <Content Include="assets\images\prettyPhoto\light_rounded\btnPrevious.png" />
+    <Content Include="assets\images\prettyPhoto\light_rounded\default_thumbnail.gif" />
+    <Content Include="assets\images\prettyPhoto\light_rounded\loader.gif" />
+    <Content Include="assets\images\prettyPhoto\light_rounded\sprite.png" />
+    <Content Include="assets\images\prettyPhoto\light_square\btnNext.png" />
+    <Content Include="assets\images\prettyPhoto\light_square\btnPrevious.png" />
+    <Content Include="assets\images\prettyPhoto\light_square\default_thumbnail.gif" />
+    <Content Include="assets\images\prettyPhoto\light_square\loader.gif" />
+    <Content Include="assets\images\prettyPhoto\light_square\sprite.png" />
+    <Content Include="assets\images\reasons\we-care-about.jpg" />
+    <Content Include="assets\images\reasons\we-fight-togother.jpg" />
+    <Content Include="assets\images\sadaka-logo.png" />
+    <Content Include="assets\images\slider\home-slider-1.jpg" />
+    <Content Include="assets\images\slider\home-slider-2.jpg" />
+    <Content Include="assets\images\slider\home-slider-3.jpg" />
+    <Content Include="assets\images\sponsors\bus.png" />
+    <Content Include="assets\images\sponsors\one-world.png" />
+    <Content Include="assets\images\sponsors\sponsor-taous.jpg" />
+    <Content Include="assets\images\sponsors\sponsor-unilever.jpg" />
+    <Content Include="assets\images\sponsors\united-nations.png" />
+    <Content Include="assets\images\sponsors\wikimedia.png" />
+    <Content Include="assets\images\sponsors\wikiversity.png" />
+    <Content Include="assets\images\team\member-1.jpg" />
+    <Content Include="assets\images\team\member-2.jpg" />
+    <Content Include="assets\images\team\member-3.jpg" />
+    <Content Include="assets\images\team\member-4.jpg" />
+    <Content Include="assets\js\about.js" />
+    <Content Include="assets\js\bootstrap.js" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\jquery-1.11.1.min.js" />
+    <Content Include="assets\js\jquery.prettyPhoto.js" />
+    <Content Include="assets\js\main.js" />
+    <Content Include="assets\js\modernizr-2.6.2.min.js" />
+    <Content Include="assets\js\owl.carousel.js" />
+    <Content Include="assets\js\owl.carousel.min.js" />
     <Content Include="bin\Antlr3.Runtime.dll" />
     <Content Include="bin\AspNet.ScriptManager.bootstrap.dll" />
     <Content Include="bin\AspNet.ScriptManager.jQuery.dll" />
@@ -405,6 +516,24 @@
     <Content Include="Content\revolution_slider\font\revicons90c6.ttf" />
     <Content Include="Content\revolution_slider\font\revicons90c6.woff" />
     <Content Include="History.aspx" />
+    <Content Include="assets\config.rb" />
+    <Content Include="assets\css\bootstrap.css.map" />
+    <Content Include="assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\images\slider\home-slider-1.webarchive" />
+    <Content Include="assets\sass\partials\_base.scss" />
+    <Content Include="assets\sass\partials\_layout.scss" />
+    <Content Include="assets\sass\partials\_module.scss" />
+    <Content Include="assets\sass\partials\_state.scss" />
+    <Content Include="assets\sass\partials\_theme.scss" />
+    <Content Include="assets\sass\partials\_variables.scss" />
+    <Content Include="assets\sass\style.scss" />
     <None Include="Properties\PublishProfiles\Matthew.pubxml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -452,6 +581,7 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Site.Mobile.Master" />
+    <Content Include="Utilities\Links\Langs.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -558,6 +688,14 @@
     <Compile Include="admin\Logout.aspx.designer.cs">
       <DependentUpon>Logout.aspx</DependentUpon>
     </Compile>
+    <Content Include="App_Code\Calendar.cs" />
+    <Content Include="App_Code\Month.cs" />
+    <Content Include="App_Code\Day.cs" />
+    <Content Include="App_Code\clsLanguageSelector.cs" />
+    <Content Include="App_Code\clsLink.cs" />
+    <Compile Include="App_Code\clsSession.cs" />
+    <Content Include="App_Code\UserSession.cs" />
+    <Content Include="App_Code\LanguageString.cs" />
     <Compile Include="History.aspx.cs">
       <DependentUpon>History.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -726,7 +864,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>49665</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:49665/</IISUrl>
+          <IISUrl>http://localhost:8080/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

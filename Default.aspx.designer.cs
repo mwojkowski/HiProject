@@ -13,21 +13,12 @@ namespace HolyInnocents {
     public partial class _Default {
         
         /// <summary>
-        /// BlogPosts control.
+        /// NewsPosts control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal BlogPosts;
-        
-        /// <summary>
-        /// BulletinColumn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal BulletinColumn;
+        protected global::System.Web.UI.WebControls.Literal NewsPosts;
     }
 }

@@ -69,8 +69,8 @@ namespace HolyInnocents.admin
             try
             {
                 cmd = c.CreateCommand();
-                cmd.CommandText = "SELECT Title, body FROM Posts WHERE id=@id";
-                cmd.Parameters.AddWithValue("@id", id);
+                cmd.CommandText = "SELECT EnglishTitle, SpanishTitle, PolishTitle, EnglishBody, SpanishBody, PolishBody, FROM News WHERE id=@ID";
+                cmd.Parameters.AddWithValue("@ID", id);
 
                 SqlDataAdapter adapter = new SqlDataAdapter(cmd);
 
@@ -91,9 +91,13 @@ namespace HolyInnocents.admin
                 }//close if statemenmt
             }//close finally
 
-            txtPostTitle.Text = article.Rows[0]["Title"].ToString();
-            txtArticleBody.Text = article.Rows[0]["body"].ToString().Replace("<br />", System.Environment.NewLine);
+            txtEnglishTitle.Text = article.Rows[0]["EnglishTitle"].ToString();
+            txtSpanishTitle.Text = article.Rows[0]["SpanishTitle"].ToString();
+            txtPolishTitle.Text = article.Rows[0]["PolishTitle"].ToString();
 
+            txtEnglishBody.Text = article.Rows[0]["EnglishBody"].ToString().Replace("<br />", System.Environment.NewLine);
+            txtSpanishBody.Text = article.Rows[0]["SpanishBody"].ToString().Replace("<br />", System.Environment.NewLine);
+            txtPolishBody.Text = article.Rows[0]["PolishBody"].ToString().Replace("<br />", System.Environment.NewLine);
 
         }//close fillForm(string qq)
 
@@ -159,10 +163,16 @@ namespace HolyInnocents.admin
             try
             {
                 cmd = c.CreateCommand();
-                cmd.CommandText = "UPDATE Posts SET Title = @Title, body = @Content WHERE id = @id";
+                cmd.CommandText = "UPDATE Posts SET EnglishTitle = @EnglishTitle, SpanishTitle = @SpanishTitle, PolishTitle = @PolishTitle, "+
+                "EnlgishBody = @EnglishBody, SpanishBody = @SpanishBody, PolishBody = @PolishBody WHERE ID = @id";
                 cmd.Parameters.AddWithValue("@id", id);
-                cmd.Parameters.AddWithValue("@Title", txtPostTitle.Text.ToString());
-                cmd.Parameters.AddWithValue("@Content", txtArticleBody.Text.ToString());
+                cmd.Parameters.AddWithValue("@EnglishTitle", txtEnglishTitle.Text.ToString());
+                cmd.Parameters.AddWithValue("@SpanishTitle", txtSpanishTitle.Text.ToString());
+                cmd.Parameters.AddWithValue("@PolishTitle", txtPolishTitle.Text.ToString());
+
+                cmd.Parameters.AddWithValue("@EnglishBody", txtEnglishBody.Text.ToString().Replace(System.Environment.NewLine, "<br />"));
+                cmd.Parameters.AddWithValue("@SpanishBody", txtSpanishBody.Text.ToString().Replace(System.Environment.NewLine, "<br />"));
+                cmd.Parameters.AddWithValue("@PolishBody", txtPolishBody.Text.ToString().Replace(System.Environment.NewLine, "<br />"));
 
                 cmd.ExecuteNonQuery();
                 message.type = "success";
